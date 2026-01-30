@@ -1,0 +1,23 @@
+{
+  "name": "startupidea",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun run --watch index.ts"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.18.18",
+    "dotenv": "^17.2.3",
+    "fast-xml-parser": "^5.3.4",
+    "ollama": "^0.6.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
